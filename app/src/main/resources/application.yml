@@ -1,5 +1,5 @@
 server:
   port: 8081
 hello:
-  name: xiaoming
-  address: beijing
+  name: zhongnan
+  address: hangzhou
