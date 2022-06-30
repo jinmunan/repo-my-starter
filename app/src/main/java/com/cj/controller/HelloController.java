@@ -1,5 +1,6 @@
 package com.cj.controller;
 
+import com.cj.log.MyLog;
 import com.cj.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,6 +20,7 @@ public class HelloController {
 	@Autowired
 	private HelloService helloService;
 
+	@MyLog(desc = "sayHello方法") //日志记录注解
 	@GetMapping
 	public String sayHello() {
 		return helloService.sayHello();

@@ -1,1 +1,3 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.cj.config.HelloServiceAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.cj.config.HelloServiceAutoConfiguration,\
+  com.cj.config.MyLogAutoConfiguration
